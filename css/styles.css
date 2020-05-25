@@ -1,0 +1,126 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #6e6e6c;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { 
+  
+  color: #000000;
+  font-size: 1.8em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px rgb(121, 118, 118);
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 1.8em ;
+  font-weight: bold;
+}
+#nav-list a:hover {
+  background: rgb(165, 160, 160);
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #000000;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+/* home page  */
+div.text-center{
+  margin-bottom: 50px;
+}
+#menu-categories-title{
+  color: #000000;
+  font-weight: bold;
+}
+
+.category-tile{
+  padding: 10px;
+  position: relative;
+  border: 2px solid rgb(0, 0, 0);
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  margin: 0 auto 15px;
+  background-color: rgb(192, 191, 190);
+}
+.category-tile h2{
+  color: #000000;
+  width: 100%;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.category-tile p{
+  position: relative;
+  color: black;
+  font-size: 1.2em;
+  text-align: justify;
+  padding: 5px;
+}
+#menu-categories-tile + div{
+  margin-bottom: 50px;
+}
+/* end home page */
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  .navbar-brand {
+    padding-top: 15px;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  .navbar-brand {
+    padding-top: 15px;
+  }
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar-brand {
+    padding-top: 15px;
+  }
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    /* height: 80px; */
+  }
+  .navbar-brand h1 {
+    padding-top: 10px;
+    font-size: 5vw;
+  }
+  #collapsable-nav a {
+    font-size: 1.2em;
+  } 
+  /* End Header */
+
+}
